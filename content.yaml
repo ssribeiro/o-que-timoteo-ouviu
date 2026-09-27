@@ -13,7 +13,7 @@ text:
     toggle_label: "Português"
     title: "O que Timóteo Ouviu"
     subtitle: "Um ebook sobre as cartas de Paulo a Timóteo — texto de apresentação provisório"
-    author: "«nome do autor»"
+    author: "Gustavo Bellini"
     points:
       - "Uma leitura das duas cartas a Timóteo, capítulo a capítulo"
       - "Para quem lê a Bíblia em casa, em grupo ou no púlpito"
@@ -27,7 +27,7 @@ text:
     toggle_label: "English"
     title: "What Timothy Heard"
     subtitle: "An ebook on Paul's letters to Timothy — provisional presentation text"
-    author: "«author name»"
+    author: "Gustavo Bellini"
     points:
       - "A reading of the two letters to Timothy, chapter by chapter"
       - "For those who read the Bible at home, in a group or from the pulpit"
