@@ -1,0 +1,38 @@
+# The ONLY place with words and prices for the page.
+# Everything between « » is a placeholder Luan must replace before any real launch.
+# buy_url: leave "" until a real https:// checkout link exists — the button then shows
+# soon_label, disabled, linking nowhere.
+
+language: "pt-BR"            # default language shown first: "pt-BR" or "en"
+price: "«R$ 00»"
+cover_image: "«cover.jpg»"   # path relative to this file; missing file = generated placeholder
+buy_url: ""
+
+text:
+  pt-BR:
+    toggle_label: "Português"
+    title: "«Título do ebook»"
+    subtitle: "«Subtítulo: uma frase sobre o que o leitor ganha»"
+    author: "«Luan»"
+    points:
+      - "«Ponto 1: o que o leitor aprende»"
+      - "«Ponto 2: para quem é»"
+      - "«Ponto 3: o que muda depois da leitura»"
+    price_label: "Preço"
+    buy_label: "Comprar"
+    soon_label: "Avise-me quando lançar"
+    footer: "protótipo — não é um produto ainda"
+
+  en:
+    toggle_label: "English"
+    title: "«Ebook title»"
+    subtitle: "«Subtitle: one line on what the reader gets»"
+    author: "«Luan»"
+    points:
+      - "«Point 1: what the reader learns»"
+      - "«Point 2: who it is for»"
+      - "«Point 3: what changes after reading»"
+    price_label: "Price"
+    buy_label: "Buy"
+    soon_label: "Notify me at launch"
+    footer: "prototype — not a product yet"
