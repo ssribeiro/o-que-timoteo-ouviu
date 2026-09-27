@@ -39,14 +39,15 @@ def base_content():
 
 
 def build(content):
-    tmp = pathlib.Path(tempfile.mkdtemp(prefix="ebook-page-test-"))
-    src = tmp / "content.yaml"
-    src.write_text(yaml.safe_dump(content, allow_unicode=True), encoding="utf-8")
-    out = tmp / "dist"
-    proc = subprocess.run([sys.executable, str(BUILD), "--content", str(src), "--out", str(out)],
-                          capture_output=True, text=True)
-    page = out / "index.html"
-    return proc, (page.read_text(encoding="utf-8") if page.exists() else None)
+    with tempfile.TemporaryDirectory(prefix="ebook-page-test-") as d:
+        tmp = pathlib.Path(d)
+        src = tmp / "content.yaml"
+        src.write_text(yaml.safe_dump(content, allow_unicode=True), encoding="utf-8")
+        out = tmp / "dist"
+        proc = subprocess.run([sys.executable, str(BUILD), "--content", str(src), "--out", str(out)],
+                              capture_output=True, text=True)
+        page = out / "index.html"
+        return proc, (page.read_text(encoding="utf-8") if page.exists() else None)
 
 
 class BuildTest(unittest.TestCase):
