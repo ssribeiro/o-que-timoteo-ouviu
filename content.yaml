@@ -4,20 +4,20 @@
 # soon_label, disabled, linking nowhere.
 
 language: "pt-BR"            # default language shown first: "pt-BR" or "en"
-price: "«R$ 00»"
+price: "Em breve"           # «preço real» when the author sets it
 cover_image: "«cover.jpg»"   # path relative to this file; missing file = generated placeholder
 buy_url: ""
 
 text:
   pt-BR:
     toggle_label: "Português"
-    title: "«Título do ebook»"
-    subtitle: "«Subtítulo: uma frase sobre o que o leitor ganha»"
-    author: "«Luan»"
+    title: "O que Timóteo Ouviu"
+    subtitle: "Um ebook sobre as cartas de Paulo a Timóteo — texto de apresentação provisório"
+    author: "«nome do autor»"
     points:
-      - "«Ponto 1: o que o leitor aprende»"
-      - "«Ponto 2: para quem é»"
-      - "«Ponto 3: o que muda depois da leitura»"
+      - "Uma leitura das duas cartas a Timóteo, capítulo a capítulo"
+      - "Para quem lê a Bíblia em casa, em grupo ou no púlpito"
+      - "Leitura curta, em linguagem simples, para voltar ao texto bíblico"
     price_label: "Preço"
     buy_label: "Comprar"
     soon_label: "Avise-me quando lançar"
@@ -25,13 +25,13 @@ text:
 
   en:
     toggle_label: "English"
-    title: "«Ebook title»"
-    subtitle: "«Subtitle: one line on what the reader gets»"
-    author: "«Luan»"
+    title: "What Timothy Heard"
+    subtitle: "An ebook on Paul's letters to Timothy — provisional presentation text"
+    author: "«author name»"
     points:
-      - "«Point 1: what the reader learns»"
-      - "«Point 2: who it is for»"
-      - "«Point 3: what changes after reading»"
+      - "A reading of the two letters to Timothy, chapter by chapter"
+      - "For those who read the Bible at home, in a group or from the pulpit"
+      - "A short read in plain language, pointing back to the biblical text"
     price_label: "Price"
     buy_label: "Buy"
     soon_label: "Notify me at launch"
